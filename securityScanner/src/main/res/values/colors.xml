@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#fff5f5f5</color>
+    <color name="card_background">#ffffffff</color>
+    <color name="card_shadow">#ffbdbdbd</color>
+    <color name="text_main">#ff000000</color>
+    <color name="text_sub">#ff666666</color>
+    <color name="list_head">#ff616161</color>
+    <color name="group_title">#ff000000</color>
+    <color name="group_enabled">#ff999999</color>
+    <color name="cert_name">#ff000000</color>
+    <color name="cert_divider">#fff0f0f0</color>
+    <color name="link_color">#ff3399ff</color>
+
+</resources>

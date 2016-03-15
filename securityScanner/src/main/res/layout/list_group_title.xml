@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/desc_d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8.0dip"
+    android:paddingLeft="30.0dip"
+    android:textColor="@color/group_title"
+    android:textSize="@dimen/group_title"
+    android:textStyle="bold" />

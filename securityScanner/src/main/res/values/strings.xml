@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">风险扫描</string>
+    <string name="title">Is this device trustable?</string>
+    <string name="vulns_header">漏洞分析</string>
+    <string name="vulns_info"><u>查看漏洞详情</u></string>
+    <string name="risks_header">风险分析</string>
+    <string name="risks_details_header">风险详情与测试</string>
+    <string name="risks_info"><u>查看风险详情与测试</u></string>
+    <string name="vuln_sys_serialize">ObjectInputStream Serialization</string>
+    <string name="vuln_sys_serialize_d">"(cve-2014-7911) luni/src/main/java/java/io/ObjectInputStream.java in the java.io.ObjectInputStream implementation in Android before 5.0.0 does not verify that deserialization will result in an object that met the requirements for serialization, which allows attackers to execute arbitrary code via a crafted finalize method for a serialized object in an ArrayMap Parcel within an intent sent to system_service, as demonstrated by the finalize method of android.os.BinderProxy, aka Bug 15874291."</string>
+    <string name="vuln_settings_priv_leakage">Settings PendingIntent (BroadAnywhere)</string>
+    <string name="vuln_settings_priv_leakage_d">"(cve-2014-8609) The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824."</string>
+    <string name="vuln_buf_overflow">Buffer Overflow</string>
+    <string name="vuln_buf_overflow_d">"(cve-2015-1474) Multiple integer overflows in the GraphicBuffer::unflatten function in platform/frameworks/native/libs/ui/GraphicBuffer.cpp in Android through 5.0 allow attackers to gain privileges or cause a denial of service (memory corruption) via vectors that trigger a large number of (1) file descriptors or (2) integer values."</string>
+    <string name="vuln_patched">protected</string>
+    <string name="vuln_vulnerable">vulnerable</string>
+    <string name="risk_debuggable_title">Apps that allow debugging</string>
+    <string name="risk_debuggable">apps that allow debugging.</string>
+    <string name="risk_debuggable_d">Debugging is a development capability used by developers during the process of creating an application. When it comes time to publicly release an application, a public release version is created that has debugging turned off. Leaving debugging enabled in an application can expose the application to attacks from malware and other malicious code on the device. The presence of debugging enabled also indicates the application may not be production-ready, and could still contain other bugs, potentially with security ramifications.</string>
+    <string name="risk_activity_title">Exported activities</string>
+    <string name="risk_activity">activities are exported.</string>
+    <string name="risk_activity_d">activities are exported.</string>
+    <string name="risk_service_title">Exported services</string>
+    <string name="risk_service">services are exported.</string>
+    <string name="risk_service_d">Services are often used to run code inside an application that is important to keep running, even when the application is not in the foreground. This scenario may apply to many applications or simply be used by a developer for good application lifecycle management. Services can be started in a similar way to activities, with an intent. These types of services can perform long-running tasks in the background. However, a second mode of operation, which allows an application to bind to the service and pass messages to and from them over the sandbox, also exists.</string>
+    <string name="risk_provider_title">Exported providers</string>
+    <string name="risk_provider">providers are exported.</string>
+    <string name="risk_provider_d">The security of content providers has a notorious past on Android, because they often hold an application’s most sensitive data and many application developers have not properly secured them. These vulnerabilities were partially because of Android’s reverse logic on content providers in regard to how they are exported by default. .</string>
+    <string name="risk_broadcastreceiver_title">Exported receives</string>
+    <string name="risk_broadcastreceiver">receives are exported.</string>
+    <string name="risk_broadcastreceiver_d">receives are exported.</string>
+    <string name="risk_dangerpermission_title">Apps that contain dangerous permission</string>
+    <string name="risk_dangerpermission">apps contain dangerous permission.</string>
+    <string name="risk_dangerpermission_d">apps contain dangerous permission.</string>
+    <string name="list_apps"> List of apps/packages:</string>
+    <string name="test_app">测试</string>
+    <string name="re_test_app">重新测试</string>
+    <string name="test_parse">分析</string>
+
+</resources>

@@ -1,0 +1,4 @@
+include ':libParseDexFile'
+include ':libParseLog'
+include ':libParseSoFile'
+include ':securityScanner'

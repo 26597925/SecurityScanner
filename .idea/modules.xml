@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SecurityScanner.iml" filepath="$PROJECT_DIR$/SecurityScanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libParseDexFile/libParseDexFile.iml" filepath="$PROJECT_DIR$/libParseDexFile/libParseDexFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libParseLog/libParseLog.iml" filepath="$PROJECT_DIR$/libParseLog/libParseLog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libParseSoFile/libParseSoFile.iml" filepath="$PROJECT_DIR$/libParseSoFile/libParseSoFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/securityScanner/securityScanner.iml" filepath="$PROJECT_DIR$/securityScanner/securityScanner.iml" />
+    </modules>
+  </component>
+</project>
